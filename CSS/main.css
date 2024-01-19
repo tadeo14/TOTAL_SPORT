@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+}
+
+/* Nuevos estilos para el componente de búsqueda */
+.navbar-container form {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-input {
+    flex: 1;
+    background-color: rgb(239, 236, 236);
+    background-image: url('/IMG/search.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 10px 50%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding-left: 35px;
+    width: 80%;
+}
+
+/* Ajustes de estilo para la versión web */
+@media (min-width: 992px) {
+    .search-input {
+        width: 300px;
+        margin-right: 90px;
+    }
+
+    .navbar-brand {
+        margin-right: auto;
+        margin-left: 0; /* Ajusta el margen izquierdo a 0 para evitar problemas de alineación */
+    }
+}
+
+/* Alineación del ícono de búsqueda en la versión móvil */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-brand i {
+    margin: 0;
+}
+
+#customAlert {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+    padding: 5px;
+    height: 50px;
+    width: 100%; /* Añade esta línea para ajustar el ancho del alert */
+    box-sizing: border-box; /* Añade esta línea para incluir el padding en el tamaño total */
+}
+
+/* Estilo para la barra inferior debajo del navbar */
+.menu-bar {
+    background-color:  #e5e4e4; /* Reemplaza "tu-color-preferido" con el color deseado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para los enlaces dentro de la barra */
+.menu-bar a {
+    color: #e9e8e9; /* Cambia el color del texto si es necesario */
+    margin: 0 15px; /* Ajusta el margen entre las opciones del menú si es necesario */
+}
+
+/* Estilo para el menú desplegable */
+.dropdown-multicolumn {
+    position: absolute !important;
+    top: 100%; /* Ajusta la distancia desde la parte superior del elemento que lo activa */
+    left: 0;
+    display: none; /* Oculta el menú por defecto */
+}
+
+.dropdown.show .dropdown-multicolumn {
+    display: flex; /* Muestra el menú cuando está activo */
+}
+
+.dropdown-menu {
+    background-color: #a1a2a0;
+    width: auto !important;
+    max-width: 100% !important;
+}
+
+.dropdown-item {
+    width: 100%;
+    white-space: normal;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+/* Estilo para las imágenes de las marcas en la barra de menú */
+.marca-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

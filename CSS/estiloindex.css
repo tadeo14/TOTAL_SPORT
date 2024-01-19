@@ -1,0 +1,57 @@
+.conteinerPrincipal {
+  display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin:0 auto
+}
+
+
+
+
+
+.botinPrincipal {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin:0 auto
+
+}
+
+
+.descripciónProductos {
+ display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+
+}
+
+.comentarios {
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin:0 auto;
+
+}
+
+.botines1 {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-between;
+
+
+}
+
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
