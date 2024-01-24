@@ -170,19 +170,21 @@
 
     <!-- Versión web -->
     <nav class="navbar navbar-expand-lg d-none d-lg-block navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container-fluid"> <!-- Cambio a container-fluid -->
         <!-- Brand -->
-        <a class="navbar-brand" href="/index.html">
-          <img src="/IMG/total_sport.png" alt="TotalSport" height="40" />
+        <a class=" me-auto bg-black" href="/index.html">
+          <div class="d-flex align-items-center">
+            <img class="img-fluid" loading="lazy" src="/IMG/total_sport.png" alt="TotalSport" />
+          </div>
         </a>
-
+    
         <!-- Input con icono de búsqueda -->
         <form class="d-flex">
           <div class="input-group">
             <input class="form-control search-input" type="search" placeholder="Buscar" aria-label="Buscar" />
           </div>
         </form>
-
+    
         <!-- Botones a la derecha -->
         <div class="ms-auto d-flex align-items-center">
           <!-- Login -->
@@ -191,10 +193,10 @@
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
             </svg>            
           </button>          
-
+    
           <!-- Carrito -->
           <button class="btn btn-custom me-3">
-            <a href="/PAGES/error.html">
+            <a href="/PAGES/error.html" class="text-decoration-none">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16" >
                 <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z" />
               </svg>
