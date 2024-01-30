@@ -99,11 +99,6 @@
           <button type="button" class="btn btn-light mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             <i class="bi bi-person" style= "font-size: 2rem;"></i>
           </button>
-
-
-          <!-- <a class="navbar-brand" href="#">
-            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="TotalSport" height="40" />
-          </a> -->
         </div>
       </nav>
     </div>
@@ -136,7 +131,7 @@
       <div class="container text-center">
         <b>
           Envíos gratis a todo el país a partir de los $69.990.
-          <div class="dropdown d-inline">
+          <div class="dropdown"> <!--d-inline--> 
             <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <!-- <i class="bi bi-chevron-double-down"></i> -->
             </button>
@@ -145,7 +140,7 @@
                 <div class="row">
                   <div class="col-lg-4 mb-3">          
                     <h6><b>OUTLET</b></h6>    
-                    <a class="dropdown-item" href="#">Ver Todo</a>
+                    <a href="/PAGES/error.html">Ver Todo</a>
                   </div>
                   <div class="col-lg-4 mb-3">          
                     <h6><b>Contactos</b></h6>    
@@ -153,12 +148,11 @@
                     <p>Con mucho gusto te atenderemos. Podés llamarnos al (0381) 5168-6056 o mandarnos un e-mail a: service-ar@total_sport.com</p>
                     <h7>Servicio al cliente</h7>
                     <p>Nuestros horarios de atención son los días hábiles de lunes a viernes de 9:00 - 18:00 horas.</p>
+                    <a href="/PAGES/contactos.html">Contactanos</a>
                   </div>
                   <div class="col-lg-4 mb-3">          
-                    <h6><b>Acerca de Nosotros</b></h6>    
-                    <a class="dropdown-item" href="#">Opción 1</a>
-                    <a class="dropdown-item" href="#">Opción 2</a>
-                    <a class="dropdown-item" href="#">Opción 3</a>
+                    <!-- <h6><b>Acerca de Nosotros</b></h6>     -->
+                    <h6><b><a href="/PAGES/error.html">Acerca de Nosotros</a></b></h6>
                   </div>
                 </div>
               </div>
@@ -170,22 +164,20 @@
 
     <!-- Versión web -->
     <nav class="navbar navbar-expand-lg d-none d-lg-block navbar-light bg-light">
-      <div class="container-fluid"> <!-- Cambio a container-fluid -->
+      <div class="container-fluid">
         <!-- Brand -->
         <a class="me-auto" href="/index.html">
-          <div class="d-flex align-items-center">
-            <img class="img-fluid" loading="lazy" src="/IMG/total_sport.png" alt="TotalSport" />
-          </div>
+          <img src="/IMG/total_sport.png" alt="TotalSport" height="40" />
         </a>
-    
-        <!-- Input con icono de búsqueda -->
+
         <div class="d-flex">
+          <!-- Input con icono de búsqueda -->
           <form class="d-flex">
             <div class="input-group">
               <input class="form-control search-input" type="search" placeholder="Buscar" aria-label="Buscar" />
             </div>
           </form>
-        
+
           <!-- Botones a la derecha -->
           <div class="ms-auto d-flex align-items-center">
             <!-- Login -->
@@ -193,11 +185,11 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
               </svg>            
-            </button>
-        
+            </button>          
+
             <!-- Carrito -->
             <button class="btn btn-custom me-3">
-              <a href="/PAGES/error.html" class="text-decoration-none">
+              <a href="/PAGES/error.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16" >
                   <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z" />
                 </svg>
@@ -205,11 +197,9 @@
             </button>
           </div>
         </div>
-        
-        </div>
       </div>
     </nav>
-    
+
     <!-- Barra de menú debajo del Navbar (solo visible en pantallas grandes y superiores) -->
     <div class="container mt-3 menu-bar">
       <div class="row">

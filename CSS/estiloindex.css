@@ -79,3 +79,41 @@ footer {
   align-items:center;
   justify-content:center;
 }
+
+
+.bannerCarrito {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 120px;
+  width: 100%;
+  
+  
+  
+  
+  }
+  
+  .botones123 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+  }
+  
+  
+  .categoriasCarrito {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 100px;
+  
+  }
+  
+  
+  .categoriasCarrito2 {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content:center;
+  }
